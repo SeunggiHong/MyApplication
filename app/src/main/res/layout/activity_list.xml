@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayoutManager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hsg.myapplication.ListActivity">
+
+
+    <Button
+        android:id="@+id/btn_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="현재 위치날씨 보기" />
+
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/recyler"
+        android:layout_width="368dp"
+        android:layout_height="509dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+</android.widget.LinearLayout>
